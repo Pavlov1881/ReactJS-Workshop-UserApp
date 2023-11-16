@@ -1,12 +1,23 @@
 import './styles.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
 
     return (
-        <>
-            <h1>Hello</h1>
-        </>
-    )
-}
 
-export default App
+        <div>
+
+            <Header></Header>
+
+            <main className='main'>
+
+            </main>
+
+            <Footer></Footer>
+
+        </div>
+    );
+};
+
+export default App;
