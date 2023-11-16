@@ -12,7 +12,9 @@ function App() {
             <Header></Header>
 
             <main className='main'>
+
                 <UserList></UserList>
+
             </main>
 
             <Footer></Footer>
