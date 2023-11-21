@@ -1,4 +1,4 @@
-const UserListItem = (this.props.) => {
+const UserListItem = (props) => {
 
     return (
         <div>
