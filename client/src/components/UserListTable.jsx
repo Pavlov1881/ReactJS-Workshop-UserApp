@@ -4,6 +4,14 @@ import * as userService from "../services/userService";
 
 
 const UserListTable = () => {
+
+    const [users, setUsers] = useState([]);
+
+    useEffect(() => {
+        userService.getAll()
+            .then(result => setUsers(result));  // след като вземем резултата го запазваме в getAll функцията
+    }, [])
+
     return (
 
         <div className="table-wrapper">
