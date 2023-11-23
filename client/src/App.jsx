@@ -1,26 +1,21 @@
-import './styles.css';
-import Header from './components/Header';
 import Footer from './components/Footer';
+import Header from './components/Header';
 import UserList from './components/UserList';
+import './styles.css';
 
 function App() {
 
     return (
-
         <div>
+            <Header />
 
-            <Header></Header>
-
-            <main className='main'>
-
-                <UserList></UserList>
-
+            <main className="main">
+                <UserList />
             </main>
 
-            <Footer></Footer>
-
+            <Footer />
         </div>
     );
-};
+}
 
-export default App;
+export default App
